@@ -2,7 +2,7 @@
 
 > Як рухається ціна нафти, хто на ній заробляє, і чи витісняє юань долар у глобальній торгівлі
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USERNAME/REPO/blob/main/notebook.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aluhanska/Petrodollar_System_Analysis_2000-2025/blob/main/notebook.ipynb)
 
 ---
 
@@ -12,7 +12,7 @@
 (~13 000 записів, 25 країн). Перевіряємо, чи ОПЕК ще керує ринком, як сланцева
 революція США змінила баланс сил, і чи реально світ дедоларизується.
 
-**Інструменти:** Python (pandas · matplotlib · seaborn · scipy) + SQL (BigQuery)
+**Інструменти:** Python (pandas · numpy · matplotlib · seaborn · scipy) + SQL (BigQuery)
 
 ---
 
@@ -38,9 +38,8 @@
 
 ```
 ├── notebook.ipynb        # Основний аналіз: 10 бізнес-питань
-├── DATA.md               # Опис усіх колонок 5 таблиць
 ├── data/                 # CSV-файли датасету
-└── images/               # Прев'ю графіків для README
+└── images/               # Прев'ю графіка для README
 ```
 
 ---
@@ -67,7 +66,6 @@
 - **Джерело:** [Global Petrodollars & De-dollarization Trends (Kaggle)](https://www.kaggle.com/datasets/moaz1911/global-petrodollars-and-de-dollarization-trends/data)
 - **Період:** 2000–2025
 - **Структура:** 5 таблиць (виробництво, ОПЕК, суверенні фонди, дедоларизація, ціни)
-- **Детальний опис колонок:** [DATA.md](DATA.md)
 
 ---
 
@@ -77,8 +75,8 @@
 
 **Локально:**
 ```bash
-git clone https://github.com/USERNAME/REPO.git
-cd REPO
+git clone https://github.com/aluhanska/Petrodollar_System_Analysis_2000-2025.git
+cd Petrodollar_System_Analysis_2000-2025
 pip install pandas matplotlib seaborn scipy google-cloud-bigquery
 jupyter notebook notebook.ipynb
 ```
@@ -87,5 +85,4 @@ jupyter notebook notebook.ipynb
 
 ## 👤 Автор
 
-**Анна Денисенко**
-[LinkedIn](#) · [GitHub](#)
+**Анна Денисенко** — аналітик даних
